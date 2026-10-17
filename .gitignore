@@ -1,0 +1,105 @@
+# Internal agent instructions and private tooling state
+/AGENTS.md
+/.agents/
+/.aws/
+/.codex/
+
+# Build directories
+build/
+cmake-build-*/
+/CMakeCache.txt
+/CMakeFiles/
+/cmake_install.cmake
+/CTestTestfile.cmake
+/Testing/
+/compile_commands.json
+/CMakeUserPresets.json
+/Makefile
+
+# Object files, libraries, and executables
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.pyd
+*.node
+*.class
+*.jar
+*.out
+*.app
+*.run
+*.AppImage
+/GHJ_GDS/GHJ_GDS_WPS
+/GHJ_GDS/GHJ_GDS_SMH
+/Data_Generate/generate_test_data
+
+# CUDA compiler outputs
+*.ptx
+*.cubin
+*.fatbin
+*.sass
+*.bc
+*.ll
+*.ko
+
+# Generated or cached binary data
+*.bin
+*.dat
+*.data
+*.raw
+*.cache
+*.npy
+*.npz
+*.parquet
+*.h5
+*.hdf5
+
+# Archives and packaged artifacts
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.gz
+
+# Logs, profiles, and crash dumps
+*.log
+*.blg
+perf.data
+perf.data.*
+*.nsys-rep
+*.ncu-rep
+*.sqlite
+core
+core.*
+*.dSYM/
+*.gcda
+*.gcno
+*.profraw
+
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor and OS metadata
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.part
+*.pid
